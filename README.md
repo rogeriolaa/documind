@@ -1,10 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DocuMind
+
+**Turn document chaos into a conversation.**
+
+DocuMind is a Next.js application leveraging Transformers.js to transform PDFs, DOCXs, and HTML files into an intelligent Q&A assistant. Upload your documents, ask questions, and receive instant answers accompanied by a confidence score—it’s your one-stop tool for making sense of complex documents quickly.
+
+---
+
+## ⭐ Features
+
+- **File Upload & Parsing** — Easily upload PDFs, DOCXs, and HTML files.
+- **Smart Q&A** — Ask natural language questions; get instant responses with confidence scores.
+- **Powered by Transformers.js** — On-device inference for speed, privacy, and simplicity.
+- **Responsive UI** — Clean, intuitive interface powered by Next.js.
+- **Instant Feedback** — Real-time conversation-like interactions make it feel like you're chatting with your documents.
+
+---
+
+## Demo
+
+_(Replace the placeholder with a link to a live demo if available)_
+
+Live demo: [Coming soon](#)!
+
+---
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js v16+ (ideally latest LTS)
+- npm, yarn, pnpm, or bun as your package manager
+
+### Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/rogeriolaa/documind.git
+cd documind
+
+# Install dependencies (choose one)
+npm install
+# or
+yarn
+# or
+pnpm install
+# or
+bun install
+```
+
+### Running the Development Server
+
+```bash
+# Start the dev server
 npm run dev
 # or
 yarn dev
@@ -14,23 +61,73 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view DocuMind in action.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Structure
 
-## Learn More
+```
+/
+├── app/
+│   └── page.tsx       # Main UI and logic
+├── public/            # Public assets
+├── styles/            # Global styles (if applicable)
+├── .gitignore
+├── package.json
+├── tsconfig.json
+└── next.config.ts
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deploying
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+DocuMind is optimized for deployment on **Vercel**, the creators of Next.js:
 
-## Deploy on Vercel
+1. Push your repository to GitHub, GitLab, or Bitbucket.
+2. Import the project into Vercel.
+3. The app will auto-deploy, and you’ll get a live URL instantly. For more details, check Vercel’s deployment docs.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## More Resources
+
+- Learn more about [Next.js](https://nextjs.org), its features, and APIs.
+- Try the interactive [Learn Next.js tutorial](https://nextjs.org/docs).
+
+---
+
+## Why DocuMind?
+
+- **Save Time** — No more scrolling through lengthy documents; get precise answers instantly.
+- **Privacy Preserved** — Since it processes data client-side (where applicable), your documents stay safe.
+- **Flexible & Future‑Ready** — Supports common document formats and adapts easily to many use cases.
+
+---
+
+## Contributing
+
+Contributions are always welcome! Consider:
+
+- Reporting bugs or suggesting features via issues.
+- Submitting improvements or new features via pull requests.
+- Enhancing documentation clarity or user experience.
+
+---
+
+## License
+
+This project is open-source—feel free to fork and modify under the terms of the [LICENSE] (if you choose to add one).
+
+---
+
+## Acknowledgements
+
+- Built with **Next.js** — for fast, optimized React applications.
+- Enabled by **Transformers.js** — bringing the power of transformer models to JavaScript.
+- Inspired by the need to extract knowledge quickly from unstructured documents.
+
+---
+
+_Happy documenting—and may every file become a conversation!_
