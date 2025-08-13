@@ -2,7 +2,7 @@
 
 **Turn document chaos into a conversation.**
 
-![DocuMind Preview](https://raw.githubusercontent.com/rogeriolaa/documind/public/preview.png)
+![DocuMind Preview](public/preview.png)
 
 DocuMind is a Next.js application leveraging Transformers.js to transform PDFs, DOCXs, and HTML files into an intelligent Q&A assistant. Upload your documents, ask questions, and receive instant answers accompanied by a confidence score—it’s your one-stop tool for making sense of complex documents quickly.
 
